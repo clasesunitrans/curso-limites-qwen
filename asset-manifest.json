@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curso-limites-qwen/static/css/main.f2b32793.css",
-    "main.js": "/curso-limites-qwen/static/js/main.cc3accca.js",
+    "main.js": "/curso-limites-qwen/static/js/main.63ff8f91.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/curso-limites-qwen/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/curso-limites-qwen/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/curso-limites-qwen/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
@@ -64,10 +64,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/curso-limites-qwen/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/curso-limites-qwen/index.html",
     "main.f2b32793.css.map": "/curso-limites-qwen/static/css/main.f2b32793.css.map",
-    "main.cc3accca.js.map": "/curso-limites-qwen/static/js/main.cc3accca.js.map"
+    "main.63ff8f91.js.map": "/curso-limites-qwen/static/js/main.63ff8f91.js.map"
   },
   "entrypoints": [
     "static/css/main.f2b32793.css",
-    "static/js/main.cc3accca.js"
+    "static/js/main.63ff8f91.js"
   ]
 }
