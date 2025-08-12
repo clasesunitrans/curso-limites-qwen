@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+//import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'; // ✅ Importa todo aquí
+import { Line } from 'react-chartjs-2';
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 import { Chart as ChartJS, 
   LineElement, 
   PointElement, 
@@ -9,9 +13,7 @@ import { Chart as ChartJS,
   Tooltip, 
   Legend 
 } from 'chart.js';
-import { Line } from 'react-chartjs-2';
-import katex from 'katex';
-import 'katex/dist/katex.min.css';
+
 
 // Registrar componentes necesarios
 ChartJS.register(
@@ -156,24 +158,23 @@ const Home = () => (
     <h1>Curso de Límites para Ciencias de la Computación</h1>
     
 
-    {/* Imagen de portada */}
+    {/* Imagen de portada 
     <img 
-      src="/portada-curso.png" 
-      alt="Portada del Curso de Límites" 
-      style={{ 
-        width: '100%', 
-        maxWidth: '600px', 
-        height: 'auto', 
-        display: 'block', 
-        margin: '20px auto', 
-        borderRadius: '12px', 
-        boxShadow: '0 4px 8px rgba(0,0,0,0.1)' 
-      }} 
-    />
+  src="logo192.png" 
+  alt="Portada del curso"
+  style={{ 
+    width: '100%', 
+    maxWidth: '600px', 
+    margin: '20px auto', 
+    display: 'block',
+    borderRadius: '12px'
+  }} 
+/> */}
     <p><strong>Autor:</strong> Lic. Felipe Martínez</p>
     <p><strong>Fecha:</strong> 3 de agosto de 2025</p>
     <p>Bienvenido a este curso interactivo diseñado especialmente para estudiantes de Ciencias de la Computación. Explora el mundo del cálculo a través de ejemplos, visualizaciones y ejercicios prácticos.</p>
     <p>Este curso cubre desde la definición intuitiva hasta el manejo de indeterminaciones y el uso de infinitésimos, con aplicaciones directas en algoritmos, análisis numérico y gráficos por computadora.</p>
+  
   </div>
 );
 
@@ -489,14 +490,16 @@ function App() {
         {/* Header */}
         <header className="header">
           <h3>Curso Interactivo de Límites 🧠</h3>
+          {/*
           <a 
-            href="/Curso de Límites.pdf" 
+            href="Curso-limites.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="print-btn"
           >
             🖨️ Imprimir Documento Completo
           </a>
+          */}
         </header>
 
         <div className="container-fluid">
